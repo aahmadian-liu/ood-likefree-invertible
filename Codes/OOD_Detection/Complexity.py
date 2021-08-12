@@ -10,7 +10,7 @@ import argparse
 
 #bias that must be added to image pixels so that the range becomes [0,1]. use 0.5 for IresNet and Glow, and 0 for ResFlow
 imbias = 0
-rpath='/home/amir/Uni/InvOOD/OodClassifier/' #path of this script
+rpath='/home/InvOOD/OodClassifier/' #path of this script
 
 def ComputeImageCompx(img):
     img=torch.tensor(img)
