@@ -44,7 +44,7 @@ where *input* is a statistics (.sts) file, which will be modified. The script co
  
 ## Step 3
 
-You can choose among the four different OOD detection methods implemented in the following source files:
+You can choose among the four different OOD detection methods implemented in the following source files in *OOD_Detection* :
 
 * _OOD_osvm.py_ : based on One Class SVM and selectable statistics (the method proposed by the paper and Morningstar et al,2020)
 * _OOD_typical.py_ : one-sample typicality test (Nalisnick et al,2019; Morningstar et al,2020)
