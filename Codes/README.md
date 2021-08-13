@@ -3,11 +3,17 @@ Amirhossein Ahmadian and Fredrik Lindsten
 International Joint Conference on Artificial Intelligence (IJCAI) 2021
 
 # Requirements
+
 ..*PyTorch (1.1)
+
 ..*Torchvision (0.3)
+
 ..*Scipy (1.3)
+
 ..*Scikit-learn (0.22)
+
 ..*Matplotlib
+
 ..*FLIF image compressor (‘flif’ command line tool, see https://github.com/FLIF-hub/FLIF)
 
 # Running OOD Detection Experiments
